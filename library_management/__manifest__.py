@@ -3,20 +3,20 @@
     'name': "library_management",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        简单的图书馆管理系统用于Shine IT 的Odoo模块开发教学
+        """,
 
     'description': """
-        Long description of module's purpose
+        通过开发一个完整的图书馆管理系统来学习Odoo开发的基本技能
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Shine IT",
+    'website': "http://www.openerp.cn",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/12.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
-    'category': 'Uncategorized',
+    'category': 'Training',
     'version': '0.1',
 
     # any module necessary for this one to work correctly
