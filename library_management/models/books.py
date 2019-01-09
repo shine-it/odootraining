@@ -14,3 +14,4 @@ class Books(models.Model):
     purchase_date = fields.Date(string='采购日期')
     purchase_price = fields.Float(string='采购价格', digits=(6, 2))
     book_cover = fields.Binary(string='封面', attachment=True)
+    rental_ids = fields.One2many(comodel_name='library.rent', inverse_name='book_id', string='借阅记录')
